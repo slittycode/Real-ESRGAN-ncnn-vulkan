@@ -11,33 +11,31 @@ Many thanks to [nihui](https://github.com/nihui), [ncnn](https://github.com/Tenc
 
 Real-ESRGAN aims at developing **Practical Algorithms for General Image Restoration**. We also optimize it for anime images.
 
-### Contents
+## Contents
 
 - [TODO List](#hourglass_flowing_sand-todo-list)
 - [Usages](#computer-usages)
 
 ---
 
-If Real-ESRGAN is helpful in your photos/projects, please help to :star: this repo or recommend it to your friends. Thanks:blush: <br>
-Other recommended projects:<br>
-:arrow_forward: [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN): A practical algorithm for general image restoration<br>
-:arrow_forward: [GFPGAN](https://github.com/TencentARC/GFPGAN): A practical algorithm for real-world face restoration <br>
-:arrow_forward: [BasicSR](https://github.com/xinntao/BasicSR): An open-source image and video restoration toolbox<br>
-:arrow_forward: [facexlib](https://github.com/xinntao/facexlib): A collection that provides useful face-relation functions.<br>
-:arrow_forward: [HandyView](https://github.com/xinntao/HandyView): A PyQt5-based image viewer that is handy for view and comparison. <br>
+If Real-ESRGAN is helpful in your photos/projects, please help to :star: this repo or recommend it to your friends. Thanks:blush:
+
+Other recommended projects:
+:arrow_forward: [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN): A practical algorithm for general image restoration
+:arrow_forward: [GFPGAN](https://github.com/TencentARC/GFPGAN): A practical algorithm for real-world face restoration
+:arrow_forward: [BasicSR](https://github.com/xinntao/BasicSR): An open-source image and video restoration toolbox
+:arrow_forward: [facexlib](https://github.com/xinntao/facexlib): A collection that provides useful face-relation functions.
+:arrow_forward: [HandyView](https://github.com/xinntao/HandyView): A PyQt5-based image viewer that is handy for view and comparison.
 
 ### :book: Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
 
-> [[Paper](https://arxiv.org/abs/2107.10833)] &emsp; [Project Page] &emsp; [Demo] <br>
-> [Xintao Wang](https://xinntao.github.io/), Liangbin Xie, [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en) <br>
+> [[Paper](https://arxiv.org/abs/2107.10833)] · [Project Page] · [Demo]
+> [Xintao Wang](https://xintao.github.io/), Liangbin Xie, [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ), [Ying Shan](https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=en)
 > Tencent ARC Lab; Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/assets/teaser.jpg">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/xinntao/public-figures/master/Real-ESRGAN/cmp_realesrgan_anime_1.png">
-</p>
+![Real-ESRGAN teaser](https://raw.githubusercontent.com/xinntao/Real-ESRGAN/master/assets/teaser.jpg)
+
+![Real-ESRGAN comparison](https://raw.githubusercontent.com/xinntao/public-figures/master/Real-ESRGAN/cmp_realesrgan_anime_1.png)
 
 ## :hourglass_flowing_sand: TODO List
 
@@ -81,25 +79,27 @@ Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
 
 If you encounter crash or error, try to upgrade your GPU driver
 
-- Intel: https://downloadcenter.intel.com/product/80939/Graphics-Drivers
-- AMD: https://www.amd.com/en/support
-- NVIDIA: https://www.nvidia.com/Download/index.aspx
+- Intel: [Graphics Drivers](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+- AMD: [Driver download](https://www.amd.com/en/support)
+- NVIDIA: [Driver download](https://www.nvidia.com/Download/index.aspx)
 
 ## :earth_asia: Other Open-Source Code Used
 
-- https://github.com/Tencent/ncnn for fast neural network inference on ALL PLATFORMS
-- https://github.com/webmproject/libwebp for encoding and decoding Webp images on ALL PLATFORMS
-- https://github.com/nothings/stb for decoding and encoding image on Linux / MacOS
-- https://github.com/tronkko/dirent for listing files in directory on Windows
+- [ncnn](https://github.com/Tencent/ncnn) for fast neural network inference on ALL PLATFORMS
+- [libwebp](https://github.com/webmproject/libwebp) for encoding and decoding Webp images on ALL PLATFORMS
+- [stb](https://github.com/nothings/stb) for decoding and encoding image on Linux / MacOS
+- [dirent](https://github.com/tronkko/dirent) for listing files in directory on Windows
 
 ## :scroll: BibTeX
 
-    @InProceedings{wang2021realesrgan,
-        author    = {Xintao Wang and Liangbin Xie and Chao Dong and Ying Shan},
-        title     = {Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data},
-        booktitle = {International Conference on Computer Vision Workshops (ICCVW)},
-        date      = {2021}
-    }
+```bibtex
+@InProceedings{wang2021realesrgan,
+    author    = {Xintao Wang and Liangbin Xie and Chao Dong and Ying Shan},
+    title     = {Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data},
+    booktitle = {International Conference on Computer Vision Workshops (ICCVW)},
+    date      = {2021}
+}
+```
 
 ## :e-mail: Contact
 
