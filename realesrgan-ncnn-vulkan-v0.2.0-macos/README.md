@@ -1,9 +1,9 @@
 # Real-ESRGAN ncnn Vulkan
 
-![CI](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/workflows/CI/badge.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/blob/master/LICENSE)
-[![Open issue](https://img.shields.io/github/issues/xinntao/Real-ESRGAN-ncnn-vulkan)](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/issues)
-[![Closed issue](https://img.shields.io/github/issues-closed/xinntao/Real-ESRGAN-ncnn-vulkan)](https://github.com/xinntao/Real-ESRGAN-ncnn-vulkan/issues)
+![CI](https://github.com/slittycode/enhance-ai/workflows/CI/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/slittycode/enhance-ai/blob/master/LICENSE)
+[![Open issue](https://img.shields.io/github/issues/slittycode/enhance-ai)](https://github.com/slittycode/enhance-ai/issues)
+[![Closed issue](https://img.shields.io/github/issues-closed/slittycode/enhance-ai)](https://github.com/slittycode/enhance-ai/issues)
 
 This project is the [ncnn](https://github.com/Tencent/ncnn) implementation of [**Real-ESRGAN**](https://github.com/xinntao/Real-ESRGAN).
 *Real-ESRGAN ncnn Vulkan* heavily borrows from [realsr-ncnn-vulkan](https://github.com/nihui/realsr-ncnn-vulkan).
